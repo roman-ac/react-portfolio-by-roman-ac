@@ -1,21 +1,27 @@
 import React from 'react';
+import Image from '../assets/profile2.JPG';
+
 
 export default function Aboutme() {
+
+
   return (
-    <div>
-      <h1>About Me</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div className="profile-container">
+      <h1>About me</h1>
+      <div className="profile-contents">  
+        <div>
+            <img className="profile-image" src={Image} alt='profileimage'></img>
+        </div>
+        <div className="profile-content">
+            <p>
+            My name is Roman Acharya. I'm from Sydney Australia and i live in Northern Beaches, undoubtely one of the 
+            beautiful places in sydney. I come from business background and have spent most of my career in Automobile 
+            industry. I have undertaken the Full Stack Flex (part-time) course with the University of Sydney and its one of 
+            the best decision i've ever made. I had, in my head for a very longtime,dream to learn coding pursue my career
+            as a Developer. So here i am.
+            </p>
+        </div>
+        </div>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('Aboutme');
 
   // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
