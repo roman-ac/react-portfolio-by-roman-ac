@@ -51,5 +51,36 @@ body {
     text-align: justify;
 }
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 10px;
+    gap: 15px;
+}
+
+.project-card {
+    background: rgb(214, 207, 207);
+    padding: 5px;
+    border: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #aaaaaa;
+    width:48%;
+}
+
+.project-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 90%;
+    height:18rem;
+}
+
+
+
+
+
 
 
