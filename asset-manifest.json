@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-by-roman-ac/static/css/main.83191553.css",
+    "main.js": "/react-portfolio-by-roman-ac/static/js/main.1f8c4068.js",
+    "static/media/coopedupcooking.png": "/react-portfolio-by-roman-ac/static/media/coopedupcooking.541d9318ab102a40925d.png",
+    "static/media/ARK.png": "/react-portfolio-by-roman-ac/static/media/ARK.0c9bff9addf7181dca81.png",
+    "static/media/cvroman.pdf": "/react-portfolio-by-roman-ac/static/media/cvroman.93d99774224e89b6f78f.pdf",
+    "static/media/weatherdash.png": "/react-portfolio-by-roman-ac/static/media/weatherdash.2fc711869e65f7f32ef0.png",
+    "static/media/workdaysch.png": "/react-portfolio-by-roman-ac/static/media/workdaysch.f129c5e70e794efdb444.png",
+    "static/media/profile2.JPG": "/react-portfolio-by-roman-ac/static/media/profile2.44058ce34a0900251f32.JPG",
+    "index.html": "/react-portfolio-by-roman-ac/index.html",
+    "main.83191553.css.map": "/react-portfolio-by-roman-ac/static/css/main.83191553.css.map",
+    "main.1f8c4068.js.map": "/react-portfolio-by-roman-ac/static/js/main.1f8c4068.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83191553.css",
+    "static/js/main.1f8c4068.js"
+  ]
+}
