@@ -67,6 +67,7 @@ body {
     border-radius: 10px;
     box-shadow: 2px 2px 2px #aaaaaa;
     width:48%;
+    height: 29rem;
 }
 
 .project-image {
@@ -78,6 +79,26 @@ body {
     height:18rem;
 }
 
+.project-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.button {
+    border: 5px;
+    border-radius: 8px;
+}
+
+.description {
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 5px;
+    height:6.5rem;
+    background-color: rgb(223, 236, 236);
+    color: black;
+}
 
 
 
