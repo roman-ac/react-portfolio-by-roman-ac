@@ -26,6 +26,7 @@ body {
 
 .profile-container {
     padding: 10px;
+    height: 60vh;
 }
 
 .profile-contents {
@@ -101,6 +102,10 @@ body {
     color: black;
 }
 
+.contact-container {
+    height: 60vh;
+}
+
 .contact-box {
     margin: auto;
     border: 2px solid grey;
@@ -109,7 +114,6 @@ body {
     padding: 10px;
     background-color:snow;
     width:50%;
-
 }
 
 .contact-header {
@@ -118,6 +122,16 @@ body {
     border-radius: 5px;
     text-decoration: underline;
 }
+
+.footer {
+    height:60px;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    padding-top: 10px;  
+    text-align: center;
+}
+
 
 
 
