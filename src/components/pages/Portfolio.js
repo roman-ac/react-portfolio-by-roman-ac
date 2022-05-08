@@ -48,13 +48,13 @@ export default function Portfolio() {
                 </div>
             <img className="project-image" src={image} alt='screenshot'/>
             <p className='description'>{description}</p>
-        </div>
+        </div> 
       )
 };
 
   return (
     <div className="project-container">      
-      <h1>Projects</h1>
+      <h1 style={{textAlign: "center"}}>My Projects</h1>
       <div className="projects" >
         {projectData.map(({ projectName, image, siteLink, repoLink, description }) => (
           <Project projectName={projectName} image={image} siteLink={siteLink} repoLink={repoLink} description={description} />
