@@ -43,12 +43,13 @@ body {
 } 
 
 .profile-content {
-    width:60%;
+    width:65%;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow : 1px 1px 1px 1px;
     font-size: 20px;
     text-align: justify;
+    padding: 15px;
 }
 
 .projects {
@@ -99,6 +100,25 @@ body {
     background-color: rgb(223, 236, 236);
     color: black;
 }
+
+.contact-box {
+    margin: auto;
+    border: 2px solid grey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    padding: 10px;
+    background-color:snow;
+    width:50%;
+
+}
+
+.contact-header {
+    background-color: rgb(234, 225, 225);
+    color: black;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
 
 
 
